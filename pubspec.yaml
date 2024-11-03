@@ -1,0 +1,41 @@
+name: vehix_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+
+  # Ajout des nouvelles dépendances 
+  provider: ^6.0.0 # gestion d'état
+  http: ^1.2.2 # appels API
+  sqflite: ^2.0.0+4 # base de données locale
+  flutter_secure_storage: ^9.2.2 # stocker les tokens
+  path_provider: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^5.0.0
+
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+
